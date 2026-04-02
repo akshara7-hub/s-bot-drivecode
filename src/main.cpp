@@ -99,6 +99,16 @@ void opcontrol() {
 		updateIntake();
 
 		updateWing();
+
+		updateTrapdoor();
+
+		updateMatchloader();
+
+		updateScoring();
+
+		updateMidgoal();
+
+		updateLowgoal();
 		
 		
 		pros::delay(10);

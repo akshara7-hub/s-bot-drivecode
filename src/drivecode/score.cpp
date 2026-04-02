@@ -20,7 +20,7 @@ static bool midPrev = false;
 
 void updateMidgoal(){
 
-    bool button = controller.get_digital(pros::E_CONTROLLER_DIGITAL_R2);
+    bool button = controller.get_digital(pros::E_CONTROLLER_DIGITAL_L2);
     
     if (button && !midPrev) {
         midgoalOn = !midgoalOn;
@@ -34,7 +34,7 @@ static bool lowgoalOn = false;
 static bool lowPrev =false;
 
 void updateLowgoal(){
-    bool button = controller.get_digital(pros::E_CONTROLLER_DIGITAL_B);
+    bool button = controller.get_digital(pros::E_CONTROLLER_DIGITAL_L1);
 
     if (button && !lowPrev) {
         lowgoalOn = !lowgoalOn;
@@ -52,4 +52,3 @@ void updateLowgoal(){
     }
 }
 
-//hello hello
