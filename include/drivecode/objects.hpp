@@ -10,6 +10,7 @@ extern lemlib::Chassis chassis;
 extern pros::adi::AnalogOut piston;
 extern pros::Controller controller;
 extern pros::adi::AnalogOut matchloader;
+extern pros::adi::DigitalOut trapdoor;
 
 extern pros::Motor scoringMotor;
 extern pros::adi::Pneumatics::DigitalOut lowGoalPiston;
